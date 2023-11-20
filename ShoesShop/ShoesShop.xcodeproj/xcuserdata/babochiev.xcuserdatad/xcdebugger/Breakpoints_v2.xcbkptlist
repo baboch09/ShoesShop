@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9CFA0BCD-9B00-4BE8-8D18-B2CF696EF8E1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B6ADBD1-18F7-4795-AD73-6E6FA4A05A4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoesShop/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9B6ADBD1-18F7-4795-AD73-6E6FA4A05A4B - 4b4e15962066683f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in ShoesShop.ProfileScreen.body.getter : some"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/ShoesShop/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "549">
+               </Location>
+               <Location
+                  uuid = "9B6ADBD1-18F7-4795-AD73-6E6FA4A05A4B - 84cece94be3a3c54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in ShoesShop.ProfileScreen.body.getter : some"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/ShoesShop/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62C38BE7-43F8-4B98-8F76-BCC4932203C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoesShop/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "62C38BE7-43F8-4B98-8F76-BCC4932203C4 - 7768ba350aab6d28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.tabItem&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(() -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tabItem&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(() -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tabItem&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(() -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in ShoesShop.ContentView.body.getter : some"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/ShoesShop/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "727">
+               </Location>
+               <Location
+                  uuid = "62C38BE7-43F8-4B98-8F76-BCC4932203C4 - f7fe322d61d934f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, ShoesShop.MyLabel)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.tabItem&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(() -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tabItem&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(() -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tabItem&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(() -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in ShoesShop.ContentView.body.getter : some"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/ShoesShop/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "426">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56594DAF-55EC-4750-92CA-1E019C0FD63B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoesShop/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB647D14-1919-4228-868C-E0818824A25E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/ShoesNetwork/Sources/ShoesNetwork/APIs/AllProductsAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getAllProduct(apiResponseQueue:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DEBE4B75-C8D8-455B-894C-AC31E05D23BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/ShoesNetwork/Sources/ShoesNetwork/APIs/AllProductsAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getAllProduct(apiResponseQueue:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D57E8D2C-0143-4C06-9BCA-A755524BABF8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "execute(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F825D94-6F1B-461A-9069-8114C5AA0704"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "execute(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D868EBBF-EFE6-42A6-8918-7EB9013A5A95"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "execute(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D868EBBF-EFE6-42A6-8918-7EB9013A5A95 - 15956272fa79bb7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoesNetwork.URLSessionRequestBuilder.execute(__C.OS_dispatch_queue, (Swift.Result&lt;ShoesNetwork.Response&lt;&#x3c4;_0_0&gt;, ShoesNetwork.ErrorResponse&gt;) -&gt; ()) -&gt; ShoesNetwork.RequestTask"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "4758">
+               </Location>
+               <Location
+                  uuid = "D868EBBF-EFE6-42A6-8918-7EB9013A5A95 - fdd0bfd651705380"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in ShoesNetwork.URLSessionRequestBuilder.execute(__C.OS_dispatch_queue, (Swift.Result&lt;ShoesNetwork.Response&lt;&#x3c4;_0_0&gt;, ShoesNetwork.ErrorResponse&gt;) -&gt; ()) -&gt; ShoesNetwork.RequestTask"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "D868EBBF-EFE6-42A6-8918-7EB9013A5A95 - 15956272fa79bb7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoesNetwork.URLSessionRequestBuilder.execute(__C.OS_dispatch_queue, (Swift.Result&lt;ShoesNetwork.Response&lt;&#x3c4;_0_0&gt;, ShoesNetwork.ErrorResponse&gt;) -&gt; ()) -&gt; ShoesNetwork.RequestTask"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "4897">
+               </Location>
+               <Location
+                  uuid = "D868EBBF-EFE6-42A6-8918-7EB9013A5A95 - ba119ab3b67db72e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 @Sendable () -&gt; () in ShoesNetwork.URLSessionRequestBuilder.execute(__C.OS_dispatch_queue, (Swift.Result&lt;ShoesNetwork.Response&lt;&#x3c4;_0_0&gt;, ShoesNetwork.ErrorResponse&gt;) -&gt; ()) -&gt; ShoesNetwork.RequestTask"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "D868EBBF-EFE6-42A6-8918-7EB9013A5A95 - 15956272fa79bb7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoesNetwork.URLSessionRequestBuilder.execute(__C.OS_dispatch_queue, (Swift.Result&lt;ShoesNetwork.Response&lt;&#x3c4;_0_0&gt;, ShoesNetwork.ErrorResponse&gt;) -&gt; ()) -&gt; ShoesNetwork.RequestTask"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "3996">
+               </Location>
+               <Location
+                  uuid = "D868EBBF-EFE6-42A6-8918-7EB9013A5A95 - ba119ab3b67db72e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 @Sendable () -&gt; () in ShoesNetwork.URLSessionRequestBuilder.execute(__C.OS_dispatch_queue, (Swift.Result&lt;ShoesNetwork.Response&lt;&#x3c4;_0_0&gt;, ShoesNetwork.ErrorResponse&gt;) -&gt; ()) -&gt; ShoesNetwork.RequestTask"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83EBE28E-ED32-4F60-B9DA-1FBA7CD710AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "execute(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "83EBE28E-ED32-4F60-B9DA-1FBA7CD710AC - 7bd5139ec4067c61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ShoesNetwork.URLSessionRequestBuilder.execute(__C.OS_dispatch_queue, (Swift.Result&lt;ShoesNetwork.Response&lt;&#x3c4;_0_0&gt;, ShoesNetwork.ErrorResponse&gt;) -&gt; ()) -&gt; ShoesNetwork.RequestTask"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "137"
+                  endingLineNumber = "137"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "83EBE28E-ED32-4F60-B9DA-1FBA7CD710AC - e0e87c76616a6dbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () -&gt; () in closure #2 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ShoesNetwork.URLSessionRequestBuilder.execute(__C.OS_dispatch_queue, (Swift.Result&lt;ShoesNetwork.Response&lt;&#x3c4;_0_0&gt;, ShoesNetwork.ErrorResponse&gt;) -&gt; ()) -&gt; ShoesNetwork.RequestTask"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "225">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A721C958-4B40-4F02-8392-0FADF630A847"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "execute(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "619E5186-FD00-440B-B075-B91F21852E30"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/ShoesNetwork/Sources/ShoesNetwork/APIs/ShoesAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getAllShoes(apiResponseQueue:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19342084-71FE-431A-A535-B7229D64E778"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/ShoesNetwork/Sources/ShoesNetwork/APIs/ShoesAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getAllShoesWithRequestBuilder()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26E4464C-6B41-4CF8-AD55-11AB459D7F7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "processRequestResponse(urlRequest:data:response:error:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "26E4464C-6B41-4CF8-AD55-11AB459D7F7F - 5f0f07057e94a979"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoesNetwork.URLSessionRequestBuilder.processRequestResponse(urlRequest: Foundation.URLRequest, data: Swift.Optional&lt;Foundation.Data&gt;, response: Swift.Optional&lt;__C.NSURLResponse&gt;, error: Swift.Optional&lt;Swift.Error&gt;, completion: (Swift.Result&lt;ShoesNetwork.Response&lt;&#x3c4;_0_0&gt;, ShoesNetwork.ErrorResponse&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "265">
+               </Location>
+               <Location
+                  uuid = "26E4464C-6B41-4CF8-AD55-11AB459D7F7F - 5f0f07057e94a979"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoesNetwork.URLSessionRequestBuilder.processRequestResponse(urlRequest: Foundation.URLRequest, data: Swift.Optional&lt;Foundation.Data&gt;, response: Swift.Optional&lt;__C.NSURLResponse&gt;, error: Swift.Optional&lt;Swift.Error&gt;, completion: (Swift.Result&lt;ShoesNetwork.Response&lt;&#x3c4;_0_0&gt;, ShoesNetwork.ErrorResponse&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ShoesShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babochiev/Desktop/ShoesShop/Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02C8DE0F-25F6-4713-B872-85A2AC5413C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/ShoesNetwork/Sources/ShoesNetwork/URLSessionImplementations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
+            landmarkName = "processRequestResponse(urlRequest:data:response:error:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E9E57F2-D0F0-4892-A993-B8245D8BE484"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoesShop/Shoes/ViewModels/ShoesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "downloadAllProducts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "545A2BB2-5C98-488B-A7D6-C75189748309"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/MyUISystem/Sources/MyUISystem/NavStack.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "push()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A4B59D7-5F73-40D8-9A47-0C5B3D04E1E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoesShop/Basket/BasketViewScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FBAA03E-4FBA-417F-9FAB-99B9BB65688E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoesShop/Basket/BasketViewScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "downloadSelectedShoes()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2554D7E2-2296-48D8-99F5-45EA1E626E60"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoesShop/ShoesMain/ViewModels/ShoesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "downloadAllProducts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08DF0D6A-48E5-4011-9918-228E0CBDD6AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoesShop/ShoesMain/ShoesSingleScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "goToBaksetButon"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

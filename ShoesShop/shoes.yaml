@@ -1,0 +1,284 @@
+openapi: 3.0.3
+info:
+  title: My new shoes API
+  description: My new shoes API
+  version: 1.0.1
+servers:
+  - url: https://d28a9781-0be0-4798-8f62-116c7246f5b1.mock.pstmn.io
+tags:
+  - name: Shoes
+    description: Everything about your Pets
+    externalDocs:
+      description: Find out more
+      url: http://swagger.io
+  - name: Products
+    description: Everything about your Pets
+    externalDocs:
+      description: Find out more
+      url: http://swagger.io
+paths:
+  /allShoes:
+    get:
+      tags:
+        - Shoes
+      summary: Get all shoes
+      
+      description: Update an existing pet by Id
+      operationId: getAllShoes
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AllShoes'
+                            
+        default:
+          description: Error operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /selectedShoes:
+    get:
+      tags:
+        - Shoes
+      summary: Get selected shoes
+      
+      description: Get selected shoes for basket
+      operationId: getSelectedShoes
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AllShoes'
+                            
+        default:
+          description: Error operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+                
+  /shoes/1:
+    get:
+      tags:
+        - Shoes
+      summary: Get current shoes
+      
+      description: Update an existing pet by Id
+      operationId: getCurrentShoes
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Shoes'
+                            
+        default:
+          description: Error operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /products:
+    get:
+      tags:
+        - Products
+      summary: Get current shoes
+      
+      description: Update an existing pet by Id
+      operationId: getAllProducts
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AllProducts'
+                            
+        default:
+          description: Error operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /products/1:
+    get:
+      tags:
+        - Products
+      summary: Get single product
+      
+      description: Update an existing pet by Id
+      operationId: getProductById
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SingleProduct'
+                            
+        default:
+          description: Error operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /products/category/mens-shoes:
+    get:
+      tags:
+        - Products
+      summary: Get single product for cathegory
+      
+      description: Update an existing pet by Id
+      operationId: getShoes
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AllProducts'
+                            
+        default:
+          description: Error operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+components:
+  schemas:
+    AllShoes:
+      type: array
+      items:
+        $ref: '#/components/schemas/Shoes'
+
+    Shoes:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 1
+        name:
+          type: string
+          example: "adsda"
+        desc:
+          type: string
+          example: "New new new nwe nasdasmld"
+        img:
+          type: string
+          example: "url"
+        size:
+          type: integer
+          format: int64
+          example: 42
+        price:
+          type: double
+          example: 100
+        brand:
+          type: string
+          example: "Nike"
+        rating:
+          type: string
+          example: "4.9"
+    
+    AllProducts:
+      type: object
+      properties:
+        products:
+          type: array
+          items:
+            $ref: '#/components/schemas/SingleProduct'
+        total:
+          type: number
+        skip:
+          type: number
+        limit:
+          type: number
+    
+    SingleProduct:
+      type: object
+      properties:
+        id:
+          type: number
+        title:
+          type: string
+        description:
+          type: string
+        price:
+          type: number
+        discountPercentage:
+          type: number
+        rating:
+          type: number
+        stock:
+          type: number
+        brand:
+          type: string
+        category:
+          type: string
+        thumbnail:
+          type: string
+        images:
+          type: array
+          items:
+            type: string
+
+    
+    Error:
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int64
+          example: 200
+
+  requestBodies:
+    Product:
+      description: Pet object that needs to be added to the store
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/AllShoes'
+        application/xml:
+          schema:
+            $ref: '#/components/schemas/AllShoes'
+    AllProduct:
+      description: List of user object
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '#/components/schemas/AllShoes'
+              
+  securitySchemes:
+    BasicAuth:
+      type: http
+      scheme: basic
+    BearerAuth:
+      type: http
+      scheme: bearer
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+        
+        
+        
+        
+        
+        
+        
+        
+    
